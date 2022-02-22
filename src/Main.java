@@ -4,8 +4,10 @@ public class Main {
 
         System.out.println("App calculator");
         System.out.println("Version 1.0");
+
         int a = 5;
         int b = 7;
+
         int c = add(a, b);
         System.out.println(c);
         int d = multiply(a, b);
@@ -19,4 +21,5 @@ public class Main {
     private static int multiply(int a, int b) {
         return a * b;
     }
+
 }
